@@ -62,7 +62,7 @@ const checkWinner = (squares, boardSize) => {
       }
     }
 
-    if (checkWinner.length === 2) {
+    if (checkWinner.length === (boardSize - 1)) {
       return {
         winner: squares[lines[i][0]],
         winnerCombo: squares[i],
