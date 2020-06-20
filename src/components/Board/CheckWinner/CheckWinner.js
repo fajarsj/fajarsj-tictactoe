@@ -55,14 +55,14 @@ const checkWinner = (squares, boardSize) => {
 
   // calculate winner
   for (let i = 0; i < lines.length; i++) {
-    let checkWinner = [];
+    let checkWinner = 0;
     for (let j = 1; j < boardSize; j++) {
       if (squares[lines[i][0]] && squares[lines[i][0]] === squares[lines[i][j]]) {
-        checkWinner.push(true);
+        checkWinner += 1;
       }
     }
 
-    if (checkWinner.length === (boardSize - 1)) {
+    if (checkWinner === (boardSize - 1)) {
       return {
         winner: squares[lines[i][0]],
         winnerCombo: squares[i],
