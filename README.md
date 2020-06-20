@@ -25,5 +25,6 @@ Then you can follow this step:
 
 After the installation, on your terminal/command line type
 1. _npm start_
+2. [Or you can access this link](https://fajarsj-tictactoe.herokuapp.com/)
 
 ### Thank you
