@@ -1,0 +1,37 @@
+.Form{
+  text-align: center;
+}
+.Form input{
+  padding: 6.5px 25px;
+  border-radius: .25rem;
+  border: 1px solid #00A9EB;
+  outline: 0;
+  background-color: #1f283e;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.Form input::-webkit-outer-spin-button,
+.Form input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Form input[type=number]{
+    -moz-appearance:textfield;
+}
+
+.Form p{
+  font-size: 1rem;
+  color:#fff;
+  margin-bottom: .5rem;;
+}
+
+.FormButton button{
+  margin-right: .5rem;
+}
+
+.FormButton button:last-child{
+  margin-right: 0;
+}

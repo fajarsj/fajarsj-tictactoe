@@ -1,13 +1,35 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Avenir Next';
+  font-weight: 200;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./assets/fonts/AvenirNext-Regular.woff2') format('woff2'), 
+  url('./assets/fonts/AvenirNext-Regular.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  unicode-range: U+0020-007F; /* The bare minimum for the English language */
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./assets/fonts/AvenirNext-Bold.woff2') format('woff2'), 
+  url('./assets/fonts/AvenirNext-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  unicode-range: U+0020-007F; /* The bare minimum for the English Language */
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./assets/fonts/AvenirNext-DemiBold.woff2') format('woff2'), 
+  url('./assets/fonts/AvenirNext-DemiBold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-007F; /* The bare minimum for the English Language */
 }

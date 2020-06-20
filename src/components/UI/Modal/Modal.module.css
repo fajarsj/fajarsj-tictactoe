@@ -1,0 +1,43 @@
+.Modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f283e;
+  z-index: 9999;
+  animation: arrowInOut 1s linear forwards;
+}
+
+.Show{
+  display: flex;
+}
+
+.Modal p{
+  background-color: rgba(255, 255, 255, 0.1);;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 2rem;
+  font-size: 3.875rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.Modal span{
+  display: block;
+  font-size: 10rem;
+  margin-bottom: -3rem;
+}
+
+.Modal p, .Modal span{
+  font-weight: bold;
+}
+
+@keyframes arrowInOut {
+  0%,100% {opacity: 0; visibility: hidden;}
+  30%, 80% {opacity: 1; visibility: visible;}
+}

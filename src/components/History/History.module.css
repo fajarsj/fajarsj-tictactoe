@@ -1,0 +1,51 @@
+.History{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 15px;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 300px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.HistoryOpen{
+  background-color: transparent;
+}
+
+.History span{
+  margin-right: .5rem;
+  font-size: 1rem;
+  background-color: #00A9EB;
+  padding: 6.5px 25px;
+  border-radius: 50rem;
+}
+
+.History img{
+  width: 25px;
+}
+
+.History .Circle{
+  background-color: #00A9EB;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.ArrowOpen{
+  transform: rotate(180deg);
+}
+
+@media (max-width: 480px) {
+  .History{
+    width: 100%;
+    background-color: #1a2035;
+  }
+}
