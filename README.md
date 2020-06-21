@@ -27,7 +27,7 @@ After the installation, on your terminal/command line type
 1. _npm start_
 2. [Or you can access this link](https://fajarsj-tictactoe.herokuapp.com/)
 
-### To determine winner on this Tic-Tac-Toe you can use this combination for example
+### To determine Tic-Tac-Toe winner you can use this combination for example
 
 ![Untitled Diagram](https://user-images.githubusercontent.com/22906687/85218474-dd8a1f00-b3c4-11ea-9190-3a56e058e488.jpg)
 
