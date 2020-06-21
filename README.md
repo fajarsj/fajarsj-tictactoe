@@ -7,7 +7,7 @@ This program is only for take home assignment interview.
 These instructions will tell you how to running the program on your local machine, these Project is already functional, responsive and ready to use
 
 To determine winner on this tictactoe you can use this combination
-![alt text](https://ibb.co/cxLxdb3)
+![Untitled Diagram](https://user-images.githubusercontent.com/22906687/85218474-dd8a1f00-b3c4-11ea-9190-3a56e058e488.jpg)
 
 ### Prerequisites
 
