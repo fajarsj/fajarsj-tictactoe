@@ -6,6 +6,9 @@ This program is only for take home assignment interview.
 
 These instructions will tell you how to running the program on your local machine, these Project is already functional, responsive and ready to use
 
+To determine winner on this tictactoe you can use this combination
+![alt text](http://url/to/img.png)
+
 ### Prerequisites
 
 Things you need to install to run the software

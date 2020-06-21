@@ -1,3 +1,4 @@
+// Reason App.js here is to make code cleaner and didnt make unnecessary file
 import React, { Component } from 'react';
 import Layout from '../hoc/Layout/Layout'
 import Board from '../components/Board/Board';

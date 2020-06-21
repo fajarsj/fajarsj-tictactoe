@@ -21,6 +21,7 @@ const Board = (props) => {
         value={squares[i]}
         onClick={() => props.onClick(i)}
         active={active}
+        key={i}
       />
     )
   }
